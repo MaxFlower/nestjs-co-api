@@ -3,7 +3,7 @@ services:
   app:
     env_file:
       - .development.env
-    container_name: awesome_nest_boilerplate
+    container_name: co_host_api
     restart: always
     build: .
     ports:
@@ -23,4 +23,4 @@ services:
     image: adminer
     restart: always
     ports:
-      - 8080:8080
+      - 9999:9999

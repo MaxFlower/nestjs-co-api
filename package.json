@@ -1,8 +1,9 @@
 {
-    "name": "awesome-nest-boilerplate",
+    "name": "co-host-api",
     "version": "0.0.1",
-    "description": "Awesome nestjs boilerplate wrote in Typescript",
-    "author": "Narek Hakobyan <narek.hakobyan.07@gmail.com>",
+    "private": true,
+    "description": "NestJs",
+    "author": "Maksiim Tsvetkov <maxtsvetapple@gmail.com>",
     "license": "MIT",
     "scripts": {
         "build": "tsc -p tsconfig.build.json",
@@ -46,7 +47,7 @@
         "express": "~4.17.1",
         "express-rate-limit": "~5.0.0",
         "file-type": "~11.1.0",
-        "helmet": "~3.18.0",
+        "helmet": "^3.21.1",
         "jsonwebtoken": "~8.5.1",
         "lodash": "^4.17.15",
         "mime-types": "~2.1.24",
